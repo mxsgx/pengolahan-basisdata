@@ -30,6 +30,7 @@ class RouteServiceProvider extends ServiceProvider
         });
 
         URL::forceRootUrl(config('app.url'));
+        URL::forceScheme('https');
 
         $this->routes(function () {
             Route::middleware('api')
