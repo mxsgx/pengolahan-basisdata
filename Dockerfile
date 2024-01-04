@@ -1,1 +1,1 @@
-FROM masga/pbd:v1.0.0
+FROM masga/pbd:v1.0.1
